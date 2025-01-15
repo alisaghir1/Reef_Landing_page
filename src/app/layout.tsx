@@ -47,8 +47,8 @@ export default function RootLayout({
             gtag('config', 'G-WF659TH2JG');
           `}
         </Script>
-        {/* Google Tag Manager */}
-        <Script id="google-tag-manager" strategy="afterInteractive">
+               {/* Google Tag Manager */}
+               <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){
               w[l]=w[l]||[];
@@ -61,9 +61,9 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-P9PQM3V9');
           `}
         </Script>
-        {/* Google Tag Manager (noscript) */}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-P9PQM3V9"
